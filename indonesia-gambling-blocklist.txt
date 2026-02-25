@@ -1,25 +1,57 @@
-! Version: 202602250300
-! Title: Indonesia Gambling Blocklist
-! Description: Indonesian gambling & mirror domains
+! Version: 202602250330
+! Title: Indonesia Gambling Blocklist Extended
+! Description: Indo gambling keywords (toto, gacor, 777, maxbet, maxwin, betwin)
 ! Syntax: Adblock domain format
-! Entries: 20
 ! Expires: 1 hours
 
+! ===== TOTO =====
 ||toto777.io^
 ||toto777.com^
 ||toto777.net^
 ||toto777.vip^
 ||toto777.site^
 ||toto777.online^
+||toto88^
+||totomacau^
+||totohk^
+||totosgp^
 
-||judionline^
-||slotonline^
+! ===== 777 Pattern =====
+||777slot^
+||777casino^
+||777toto^
+||777bet^
+||777gacor^
+
+! ===== GACOR =====
+||slotgacor^
+||gacorslot^
+||gacor777^
+||gacor88^
+||gacorbet^
+
+! ===== MAXBET / MAXWIN =====
+||maxbet^
+||maxbet777^
+||maxbet88^
+||maxwin^
+||maxwin777^
+||maxwin88^
+
+! ===== BETWIN =====
+||betwin^
+||betwin777^
+||betwin88^
+
+! ===== UMUM INDONESIA =====
 ||bandarjudi^
 ||bandarslot^
 ||bandartogel^
-||togelslot^
+||judionline^
+||slotonline^
 ||togelonline^
-||situsjudi^
-||agenslot^
 ||agenjudi^
-||slotgacor^
+||agenslot^
+||situsslot^
+||situsjudi^
+||jackpotbesar^
