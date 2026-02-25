@@ -1,37 +1,25 @@
-# Indonesia Gambling Blocklist
-# Format: domain-only (compatible with AdGuard Home DNS blocklist)
-# Last update: 2026-02-25
+! Version: 202602250300
+! Title: Indonesia Gambling Blocklist
+! Description: Indonesian gambling & mirror domains
+! Syntax: Adblock domain format
+! Entries: 20
+! Expires: 1 hours
 
-# --- Toto777 ---
-toto777.io
-www.toto777.io
-api.toto777.io
-cdn.toto777.io
+||toto777.io^
+||toto777.com^
+||toto777.net^
+||toto777.vip^
+||toto777.site^
+||toto777.online^
 
-# --- Generic Toto Pattern (common mirrors) ---
-toto777.com
-toto777.net
-toto777.vip
-toto777.site
-toto777.online
-
-# --- Common gambling keywords (manual additions recommended) ---
-judionline
-slotonline
-bandarjudi
-bandarslot
-bandartogel
-togelslot
-togelonline
-situsslot
-situsjudi
-agenjudi
-agenslot
-jackpotbesar
-slotgacor
-
-# --- Optional: wildcard-like coverage via common mirrors ---
-toto7771.io
-toto7772.io
-toto77788.io
-toto777123.io
+||judionline^
+||slotonline^
+||bandarjudi^
+||bandarslot^
+||bandartogel^
+||togelslot^
+||togelonline^
+||situsjudi^
+||agenslot^
+||agenjudi^
+||slotgacor^
