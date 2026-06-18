@@ -1,0 +1,69 @@
+! VPN Services Blocklist for AdGuard
+! Last Updated: 2026-06-18
+! Description: Block common VPN service domains
+! Note: ZeroTier is excluded from this blocklist
+
+! Common VPN Services
+||veepn.com^
+||browsec.com^
+||hola.org^
+||holavpn.org^
+||setupvpn.com^
+||urban-vpn.com^
+||urbanvpn.com^
+||freevpnplanet.com^
+||planetvpn.com^
+||hoxx.com^
+||dotvpn.com^
+||troywellvpn.com^
+||windscribe.com^
+||protonvpn.com^
+||tunnelbear.com^
+||zenmate.com^
+||hotspotshield.com^
+||vpnproxyapp.com^
+
+! Popular VPN Services (Extended)
+||expressvpn.com^
+||nordvpn.com^
+||surfshark.com^
+||cyberghostvpn.com^
+||ipvanish.com^
+||privateinternetaccess.com^
+||pia.com^
+||mullvad.net^
+||proxysh.com^
+||vyprvpn.com^
+||tigerstream.com^
+||fastesttunnel.com^
+||vpnify.com^
+||vpnunlimited.com^
+||avast.com^
+||avastclear.com^
+||bitdefender.com^
+||bitdefendervpn.com^
+||avira.com^
+||aviravpn.com^
+
+! Streaming VPN Services
+||smartdns.com^
+||unlocator.com^
+||overplay.net^
+||getflix.com.au^
+||unotelly.com^
+
+! Proxy Services
+||hide.me^
+||whoer.net^
+||ipleak.net^
+||proxy.com^
+||anonymizer.com^
+
+! Exclude ZeroTier (NOT blocking)
+! @@||zerotier.com^
+
+! Notes:
+! - This list blocks access to VPN provider websites
+! - Does not necessarily block VPN protocols or applications themselves
+! - ZeroTier is explicitly excluded from this blocklist
+! - Some VPN services may use multiple domains for different regions
