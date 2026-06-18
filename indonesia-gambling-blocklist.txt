@@ -1,6 +1,6 @@
-! Version: 202602250330
+! Version: 202606180001
 ! Title: Indonesia Gambling Blocklist Extended
-! Description: Indo gambling keywords (toto, gacor, 777, maxbet, maxwin, betwin)
+! Description: Indo gambling keywords (toto, gacor, 777, maxbet, maxwin, betwin, dan domain lainnya)
 ! Syntax: Adblock domain format
 ! Expires: 1 hours
 
@@ -12,9 +12,14 @@
 ||toto777.site^
 ||toto777.online^
 ||toto88^
+||toto123^
+||toto456^
 ||totomacau^
 ||totohk^
 ||totosgp^
+||totowel^
+||toto-online^
+||toto-bet^
 
 ! ===== 777 Pattern =====
 ||777slot^
@@ -22,6 +27,9 @@
 ||777toto^
 ||777bet^
 ||777gacor^
+||777live^
+||777king^
+||7777^
 
 ! ===== GACOR =====
 ||slotgacor^
@@ -29,6 +37,11 @@
 ||gacor777^
 ||gacor88^
 ||gacorbet^
+||gacor-slot^
+||slot-gacor^
+||gacor123^
+||gacoremas^
+||gacorjackpot^
 
 ! ===== MAXBET / MAXWIN =====
 ||maxbet^
@@ -37,11 +50,17 @@
 ||maxwin^
 ||maxwin777^
 ||maxwin88^
+||maxbet-online^
+||maxwin-online^
+||maxbet123^
+||maxwin123^
 
 ! ===== BETWIN =====
 ||betwin^
 ||betwin777^
 ||betwin88^
+||betwin-online^
+||betwinjack^
 
 ! ===== UMUM INDONESIA =====
 ||bandarjudi^
@@ -55,3 +74,99 @@
 ||situsslot^
 ||situsjudi^
 ||jackpotbesar^
+||togelmania^
+||togelhk^
+||togelsgp^
+||togelmacau^
+||togelkamboja^
+||togeltaipan^
+||togelmaster^
+||togeljitu^
+
+! ===== SLOT GAMES =====
+||slotasian^
+||slotkamboja^
+||slottaipan^
+||slotjackpot^
+||slotpragmatic^
+||slotgates^
+||slotbonus^
+||slotboss^
+||slotking^
+||slotland^
+||slotvip^
+||slotpro^
+||slothot^
+||slotterpercaya^
+
+! ===== TOGEL VARIANTS =====
+||togelresmi^
+||togelvip^
+||togelking^
+||togelxl^
+||togelsydney^
+||togelsingapore^
+||togel-hongkong^
+||togel-macau^
+||togelacak^
+||togelhoki^
+
+! ===== LIVE CASINO =====
+||casinolive^
+||livecasino^
+||casinonline^
+||casinovip^
+||casinokamboja^
+||casinotaipan^
+||casinoasia^
+||baccaratonline^
+||rouletonline^
+
+! ===== AGEN / BANDAR VARIANTS =====
+||agenbola^
+||agencasino^
+||agenbolaterpercaya^
+||bandarbolaterpercaya^
+||bandaronline^
+||bandarvip^
+||bandarasia^
+||bandarjitulive^
+||bandarjitukamboja^
+
+! ===== JACKPOT / BONUS =====
+||jackpotslot^
+||jackpottogel^
+||bonusgacor^
+||bonusslot^
+||jackpotharian^
+||jackpothot^
+||jackpotbola^
+
+! ===== LAINNYA =====
+||rtp-slot^
+||rtpgacor^
+||linkgacor^
+||situsbolaterpercaya^
+||situstotelterpercaya^
+||siteusslotterpercaya^
+||slotdepo^
+||slotdepositpulsa^
+||slotgratiskredit^
+||togeldepositpulsa^
+||togelgratiskredit^
+||keluaranhk^
+||keluaransgp^
+||keluarantaipan^
+||pengeluaranhk^
+||pengeluaransgp^
+||pengeluarantaipan^
+||data-hk^
+||data-sgp^
+||data-macau^
+||master-hk^
+||master-sgp^
+||mastersgp^
+||masterhk^
+||mastermacau^
+||mastertaipan^
+
