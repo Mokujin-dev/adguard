@@ -1,0 +1,47 @@
+! Version: 202606180001
+! Title: Short Video Services Blocklist
+! Description: Indonesian and international short video platforms
+! Syntax: Adblock domain format
+! Expires: 1 hours
+
+! ===== SHORT VIDEO PLATFORMS =====
+||snackvideo.in^
+||snackvideo.com^
+||*.snackvideo.in^
+||*.snackvideo.com^
+
+! ===== TIKTOK & BYTEDANCE =====
+||tiktok.com^
+||*.tiktok.com^
+||tiktok.tv^
+||*.tiktok.tv^
+||vt.tiktok.com^
+||m.tiktok.com^
+||douyin.com^
+||*.douyin.com^
+||isnssdk.com^
+||muscdn.com^
+
+! ===== OTHER SHORT VIDEO PLATFORMS =====
+||snapchat.com^
+||*.snapchat.com^
+||likee.video^
+||*.likee.video^
+||likee.com^
+||*.likee.com^
+||momo.video^
+||*.momo.video^
+||bigo.tv^
+||*.bigo.tv^
+||kwai.com^
+||*.kwai.com^
+||weibo.com^
+||*.weibo.com^
+
+! ===== ANALYTICS & TRACKING (SHORT VIDEO) =====
+||v.kuaishou.com^
+||open.kuaishou.com^
+||pstatp.com^
+||*.pstatp.com^
+||bytecdn.cn^
+||*.bytecdn.cn^
