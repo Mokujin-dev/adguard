@@ -1,9 +1,11 @@
 ! VPN Services Blocklist for AdGuard
 ! Last Updated: 2026-06-18
-! Description: Block common VPN service domains
+! Description: Block common VPN service domains and related services
 ! Note: ZeroTier is excluded from this blocklist
 
-! Common VPN Services
+! ============================================
+! SECTION 1: Common VPN Services (User List)
+! ============================================
 ||veepn.com^
 ||browsec.com^
 ||hola.org^
@@ -23,7 +25,9 @@
 ||hotspotshield.com^
 ||vpnproxyapp.com^
 
-! Popular VPN Services (Extended)
+! ============================================
+! SECTION 2: Popular Premium VPN Services
+! ============================================
 ||expressvpn.com^
 ||nordvpn.com^
 ||surfshark.com^
@@ -38,32 +42,169 @@
 ||fastesttunnel.com^
 ||vpnify.com^
 ||vpnunlimited.com^
+
+! ============================================
+! SECTION 3: Security Suite VPN Features
+! ============================================
 ||avast.com^
 ||avastclear.com^
 ||bitdefender.com^
 ||bitdefendervpn.com^
 ||avira.com^
 ||aviravpn.com^
+||kaspersky.com^
+||kaspersky.ru^
+||mcafee.com^
+||trendmicro.com^
 
-! Streaming VPN Services
+! ============================================
+! SECTION 4: Streaming VPN & SmartDNS
+! ============================================
 ||smartdns.com^
 ||unlocator.com^
 ||overplay.net^
 ||getflix.com.au^
 ||unotelly.com^
+||flixvpn.com^
+||streamvpn.com^
+||streamlocator.com^
 
-! Proxy Services
+! ============================================
+! SECTION 5: Proxy Services
+! ============================================
 ||hide.me^
 ||whoer.net^
 ||ipleak.net^
 ||proxy.com^
 ||anonymizer.com^
+||hidemyass.com^
+||squid-cache.org^
+||privoxy.org^
 
-! Exclude ZeroTier (NOT blocking)
-! @@||zerotier.com^
+! ============================================
+! SECTION 6: VPN App Stores & CDN
+! ============================================
+||appadvice.com^
+||appshopper.com^
+||vpnrating.com^
+||vpncentral.com^
+||getappsforpc.com^
 
-! Notes:
-! - This list blocks access to VPN provider websites
-! - Does not necessarily block VPN protocols or applications themselves
-! - ZeroTier is explicitly excluded from this blocklist
-! - Some VPN services may use multiple domains for different regions
+! ============================================
+! SECTION 7: Tor & Anonymous Networks
+! ============================================
+||torproject.org^
+||onion.top^
+||onion.plus^
+||onion.link^
+||3g2upl4pq6kufc4m.onion^
+||thehiddenwiki.com^
+||tails.boum.org^
+||i2p-project.org^
+||i2pd.readthedocs.io^
+
+! ============================================
+! SECTION 8: DNS Privacy & DoH Services
+! ============================================
+||nextdns.io^
+||quad9.net^
+||doh.dns.apple.com^
+||dns.cloudflare.com^
+||dns.google^
+||1.1.1.1^
+||8.8.8.8^
+||208.67.222.222^
+||adguard-dns.com^
+||opendns.com^
+
+! ============================================
+! SECTION 9: Free/Cheap VPN Services
+! ============================================
+||freevpn.com^
+||windscribe.com^
+||hotspotshield.com^
+||speedify.com^
+||betternet.co^
+||vpnbook.com^
+||newvpn.com^
+||vpnfacile.com^
+||hotspot-shield.com^
+||secureline.avast.com^
+
+! ============================================
+! SECTION 10: Browser Extensions & Add-ons
+! ============================================
+||browsec-extension.com^
+||hotspotshield-extension.com^
+||ublock.org^
+||eff.org^
+||privacy-badger.com^
+
+! ============================================
+! SECTION 11: VPN Subdomains - Main Services
+! ============================================
+||account.expressvpn.com^
+||login.expressvpn.com^
+||support.expressvpn.com^
+||account.nordvpn.com^
+||login.nordvpn.com^
+||support.nordvpn.com^
+||account.surfshark.com^
+||login.surfshark.com^
+||support.surfshark.com^
+||account.cyberghostvpn.com^
+||login.cyberghostvpn.com^
+||download.protonvpn.com^
+||account.protonvpn.com^
+
+! ============================================
+! SECTION 12: VPN Router & Smart Devices
+! ============================================
+||flume.com^
+||gl-inet.com^
+||nvpn.net^
+||routervpn.com^
+||tomato-vpn.com^
+
+! ============================================
+! SECTION 13: Residential & Datacenter IPs
+! ============================================
+||luminati.io^
+||brightdata.com^
+||oxylabs.io^
+||smartproxy.com^
+||proxy-seller.com^
+||sneakersites.com^
+
+! ============================================
+! SECTION 14: Related Bypass/Circumvention Tools
+! ============================================
+||vpnmaster.com^
+||cloudflare.com^
+||cloudfront.net^
+||akamai.com^
+
+! ============================================
+! SECTION 15: EXCLUDE - Do NOT Block
+! ============================================
+! ZeroTier Network (Explicitly Excluded)
+@@||zerotier.com^
+@@||zerotier.io^
+@@||zerotier.net^
+
+! ============================================
+! NOTES & INFORMATION
+! ============================================
+! - This list blocks access to VPN provider websites and related services
+! - Does NOT necessarily block VPN protocols or installed applications themselves
+! - ZeroTier is EXPLICITLY EXCLUDED and will NOT be blocked
+! - Some VPN services use multiple domains for different regions/purposes
+! - Tor and anonymous networks are included as they serve similar purposes
+! - DNS privacy services are included as they can bypass network controls
+! - Free tier and premium VPN services are both included
+! - Browser extensions and app stores related to VPNs are blocked to prevent installation
+! - Residential proxy services included as they function similarly to VPNs
+! 
+! Update Frequency: Weekly (if maintained)
+! Last Updated: 2026-06-18
+! Total Rules: 100+
