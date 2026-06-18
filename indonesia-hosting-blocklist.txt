@@ -1,0 +1,50 @@
+! Version: 202606180001
+! Title: Indonesia Web Hosting Blocklist
+! Description: Indonesian web hosting and domain services providers
+! Syntax: Adblock domain format
+! Expires: 1 hours
+
+! ===== HOSTING INDONESIA =====
+||hostinger.co.id^
+||niagahoster.co.id^
+||idwebhost.com^
+||dewaweb.com^
+||domainesia.com^
+||jagoan.io^
+||cbnetmedia.com^
+||kvchosting.com^
+||detik.com^
+||bersosial.com^
+||blogger.com^
+||indo.com^
+||web.id^
+
+! ===== REGISTRAR INDONESIA =====
+||pandi.id^
+||kios.biz^
+||easydomains.id^
+||zone.id^
+||rumahweb.com^
+
+! ===== HOSTING MURAH INDONESIA =====
+||webhostingindonesia.net^
+||indohost.com^
+||hostingkita.com^
+||hostesia.com^
+||mulaihost.com^
+||paket-hosting.com^
+||hostpoco.com^
+||bintanghost.com^
+||elitehost.id^
+
+! ===== CLOUD STORAGE INDONESIA =====
+||mediafire.com^
+||dropbox.com^
+||google.com^
+||icloud.com^
+
+! ===== SHARED HOSTING LOKAL =====
+||lintasarta.net^
+||telkom.co.id^
+||sirclo.com^
+||qiscus.com^
