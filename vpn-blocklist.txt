@@ -140,15 +140,7 @@
 ||sneakersites.com^
 
 ! ============================================
-! SECTION 11: Related Bypass/Circumvention Tools
-! ============================================
-||vpnmaster.com^
-||cloudflare.com^
-||cloudfront.net^
-||akamai.com^
-
-! ============================================
-! SECTION 12: EXCLUDE - Do NOT Block
+! SECTION 11: EXCLUDE - Do NOT Block
 ! ============================================
 ! ZeroTier Network (Explicitly Excluded)
 @@||zerotier.com^
@@ -167,8 +159,9 @@
 ! - Browser extensions and app stores related to VPNs are blocked to prevent installation
 ! - Residential proxy services included as they function similarly to VPNs
 ! 
-! NOTE: DNS Privacy Services (Section 8) removed - DNS already forced to 10.5.50.209 on MikroTik
+! NOTE: DNS Privacy Services removed - DNS already forced to 10.5.50.209 on MikroTik
+! NOTE: Bypass/Circumvention Tools removed - CDN/DNS services should not be blocked
 ! 
 ! Update Frequency: Weekly (if maintained)
 ! Last Updated: 2026-06-18
-! Total Rules: 90+
+! Total Rules: 80+
