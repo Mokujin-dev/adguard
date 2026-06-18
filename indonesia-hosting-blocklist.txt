@@ -13,11 +13,7 @@
 ||jagoan.io^
 ||cbnetmedia.com^
 ||kvchosting.com^
-||detik.com^
 ||bersosial.com^
-||blogger.com^
-||indo.com^
-||web.id^
 
 ! ===== REGISTRAR INDONESIA =====
 ||pandi.id^
@@ -37,14 +33,7 @@
 ||bintanghost.com^
 ||elitehost.id^
 
-! ===== CLOUD STORAGE INDONESIA =====
-||mediafire.com^
-||dropbox.com^
-||google.com^
-||icloud.com^
-
 ! ===== SHARED HOSTING LOKAL =====
 ||lintasarta.net^
-||telkom.co.id^
 ||sirclo.com^
 ||qiscus.com^
