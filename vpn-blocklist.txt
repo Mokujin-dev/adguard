@@ -1,5 +1,5 @@
 ! VPN Services Blocklist for AdGuard
-! Last Updated: 2026-06-18
+! Last Updated: 2026-06-19
 ! Description: Block common VPN service domains and related services
 ! Note: ZeroTier is excluded from this blocklist
 
@@ -42,6 +42,7 @@
 ||fastesttunnel.com^
 ||vpnify.com^
 ||vpnunlimited.com^
+||technov.cloud^
 
 ! ============================================
 ! SECTION 3: Security Suite VPN Features
@@ -163,5 +164,5 @@
 ! NOTE: Bypass/Circumvention Tools removed - CDN/DNS services should not be blocked
 ! 
 ! Update Frequency: Weekly (if maintained)
-! Last Updated: 2026-06-18
-! Total Rules: 80+
+! Last Updated: 2026-06-19
+! Total Rules: 81+
