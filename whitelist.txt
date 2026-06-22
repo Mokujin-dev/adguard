@@ -40,6 +40,9 @@
 @@||*.copilot.github.com^$important
 @@||github.com^$important
 @@||*.github.com^$important
+@@||github.githubassets.com^$important
+@@||githubcopilot.com^$important
+@@||*.githubcopilot.com^$important
 @@||githubusercontent.com^$important
 @@||*.githubusercontent.com^$important
 @@||telemetry.microsoft.com^$important
