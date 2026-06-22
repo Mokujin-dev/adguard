@@ -33,6 +33,15 @@
 @@||browser-intake-datadoghq.com^$important
 @@||sg2plmcpnl492023.prod.sin2.secureserver.net^$important
 @@||cdn.tailwindcss.com^$important
+# GitHub & Copilot
+@@||api.github.com^$important
+@@||copilot-proxy.githubusercontent.com^$important
+@@||copilot.githubusercontent.com^$important
+@@||*.copilot.github.com^$important
+@@||github.com^$important
+@@||*.github.com^$important
+@@||telemetry.microsoft.com^$important
+@@||dc.services.visualstudio.com^$important
 # Zoom
 @@||zoom.us^$important
 @@||*.zoom.us^$important
