@@ -40,8 +40,29 @@
 @@||*.copilot.github.com^$important
 @@||github.com^$important
 @@||*.github.com^$important
+@@||githubusercontent.com^$important
+@@||*.githubusercontent.com^$important
 @@||telemetry.microsoft.com^$important
 @@||dc.services.visualstudio.com^$important
+@@||vscode-cdn.net^$important
+@@||*.vscode-cdn.net^$important
+@@||vscode.dev^$important
+@@||*.vscode.dev^$important
+@@||update.code.visualstudio.com^$important
+@@||download.visualstudio.microsoft.com^$important
+@@||marketplace.visualstudio.com^$important
+@@||*.marketplace.visualstudio.com^$important
+@@||*.blob.core.windows.net^$important
+@@||*.table.core.windows.net^$important
+@@||vsmarketplacecdn.blob.core.windows.net^$important
+@@||artifactcdn.blob.core.windows.net^$important
+# Microsoft Services
+@@||microsoft.com^$important
+@@||*.microsoft.com^$important
+@@||windows.net^$important
+@@||*.windows.net^$important
+@@||microsoftonline.com^$important
+@@||*.microsoftonline.com^$important
 # Zoom
 @@||zoom.us^$important
 @@||*.zoom.us^$important
