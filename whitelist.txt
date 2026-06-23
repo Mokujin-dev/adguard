@@ -14,6 +14,7 @@
 @@||allawnos.com^
 @@||www.msftconnecttest.com^
 @@||www.msftncsi.com^
+@@||lh3.googleusercontent.com^
 # Local Network
 @@||10.5.50.0/24^
 @@||10.5.50.1^
